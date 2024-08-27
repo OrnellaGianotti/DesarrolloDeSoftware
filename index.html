@@ -11,6 +11,15 @@
     </head>
     <body>
 
+        <nav>
+            <button onclick="openTab('presentacion')">Descripción</button>
+            <button onclick="openTab('skills')">Habilidades</button>
+            <button onclick="openTab('experiencias')">Experiencias</button>
+            <button onclick="openTab('proyectos')">Proyectos</button>
+            <button onclick="openTab('contacto')">Contacto</button>
+        </nav>
+
+
         <div class="container"> 
             <div class="row">
                 <div class="col"> 
@@ -20,149 +29,87 @@
                 </div>
             
             </div>
-            <div class="row">
-                <div class="col"> 
-                    <div class="presentacion">
-                        <p> Hola! Soy ornella gianotti,estudiante de Ingeniería en Sistemas de Información, a lo largo de mi formación he trabajado en proyectos educativos y personales que me han permitido adquirir habilidades en programación y diseño web. 
-                            Estoy enfocada en seguir creciendo como desarrolladora y en construir soluciones creativas y eficientes. 
-                            En este portfolio podrás conocer más sobre mí, mis habilidades, proyectos y cómo puedo contribuir con mis conocimientos en el mundo del desarrollo. ¡Bienvenido/a!
-                        </p>
-                    </div>
-                    
-
-                </div>
-            
-            </div>
-
-            <div class="row">
-                <div class="col"> 
+            <div class="container">
+                <div id="presentacion" class="tabcontent">
+                    <p>Hola! Soy Ornella Gianotti, estudiante de Ingeniería en Sistemas de Información. A lo largo de mi formación, he trabajado en proyectos educativos y personales que me han permitido adquirir habilidades en programación y diseño web. Estoy enfocada en seguir creciendo como desarrolladora y en construir soluciones creativas y eficientes. En este portafolio podrás conocer más sobre mí, mis habilidades, proyectos y cómo puedo contribuir con mis conocimientos en el mundo del desarrollo. ¡Bienvenido/a!</p>
                     <div class="img_container">
-                        <img src="imagenes/imagenOrne.jpg" alt="imagen de ornella gianotti" >
+                        <img src="imagenes/imagenOrne.jpg" alt="Imagen de Ornella Gianotti">
                     </div>
-                   
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <div class="skills"> 
-                        <h3> Habilidades y herramientas: </h3>
-                        <div>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>MySQL</li>
-                                <li>Git</li>
-                                <li>Python</li>
-                                <li>Canva</li>
-                            </ul>
-                        </div>
-                    </div> 
-
                 </div>
 
-
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="experiencias"> 
-                        <h3> Experiencias: </h3>
-                        <div>
-                            <ul>
-                                <li>Desarrollador Full Stack
-                                    Febrero 2022 - Febrero 2023
-                                    Lideré el desarrollo de aplicaciones web y trabajé estrechamente con el equipo de diseño para implementar interfaces de usuario intuitivas y funcionales. Además, optimicé la base de datos relacional, mejorando la eficiencia de las consultas en un 50%. </li>
-                                <li> 
-                                    Analista de Sistemas
-                                    Julio 2023 - Julio 2024
-                                    Analicé y documenté los sistemas existentes en la empresa de mi familia para identificar oportunidades de mejora. Implementé soluciones de automatización con Python que redujeron los errores manuales en un 40%. También diseñé y ejecuté planes de pruebas para asegurar la calidad del software desarrollado.   
-                                </li>
-                                
-                            </ul>
-                        </div>
-                    </div> 
-
+                <div id="skills" class="tabcontent">
+                    <h3>Habilidades y herramientas:</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>Git</li>
+                        <li>Python</li>
+                        <li>Canva</li>
+                    </ul>
                 </div>
-            
-            <div class="row">
-                <div class="col">
-                    <div class="proyectos"> 
-                        <h3> Proyectos: </h3>
-                        <div>
-                            <ol>
-                                <li> Sistema de Reservas para Salas de Estudio:Implementé un sistema que permite a los estudiantes reservar salas de estudio en la universidad (realizado en abril de 2023)</li> 
-                                
-                                <li> Aplicación climatica:  Desarrollé una aplicación web que muestra información climática en tiempo real (realizado en agosto de 2023).</li>
-                            </ol>
-                        </div>
-                         
-                    </div>
-
+        
+                <div id="experiencias" class="tabcontent">
+                    <h3>Experiencias:</h3>
+                    <ul>
+                        <li>Desarrolladora Full Stack (Febrero 2022 - Febrero 2023): Lideré el desarrollo de aplicaciones web y trabajé estrechamente con el equipo de diseño para implementar interfaces de usuario intuitivas y funcionales.</li>
+                        <li>Analista de Sistemas (Julio 2023 - Julio 2024): Analicé y documenté sistemas existentes, implementé soluciones de automatización y diseñé planes de pruebas para asegurar la calidad del software.</li>
+                    </ul>
                 </div>
-            </div>
-    
-
-            <div class="row">
-                <div class="col">
-                    <div class="contacto">
-                        <h3> Contáctate conmigo: </h3>
-                        <ul>
-                            <li>
-                                <a href="https://ar.linkedin.com/in/ornella-gianotti-032929270" target="_blank" rel="noopener noreferrer">
-                                    LinkedIn
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/OrnellaGianotti" target="_blank" rel="noopener noreferrer">
-                                    GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a href="mailto:gianottiornella@gmail.com">
-                                    Email
-                                </a>
-                            </li>
-                            <li> 
-                                <a href="https://wa.me/3564609945" target="_blank" rel="noopener noreferrer">
-                                    Envíame un mensaje por WhatsApp
-                                </a>
-            
-                            </li>
-                            
-                        </ul>
-            
-                    </div>
-                    
+        
+                <div id="proyectos" class="tabcontent">
+                    <h3>Proyectos:</h3>
+                    <ol>
+                        <li>Sistema de Reservas para Salas de Estudio: Implementé un sistema que permite a los estudiantes reservar salas de estudio en la universidad (Abril 2023).</li>
+                        <li>Aplicación climática: Desarrollé una aplicación web que muestra información climática en tiempo real (Agosto 2023).</li>
+                    </ol>
                 </div>
-            </div>
-    
-            
-
-            <div class="row">
-                <div class="col">
-                    <div class="formulario de contacto">
-                        <h3>Contáctate conmigo desde aqui: </h3>
+        
+                <div id="contacto" class="tabcontent">
+                    <h3>Contáctate conmigo:</h3>
+                    <ul>
+                        <li><a href="https://ar.linkedin.com/in/ornella-gianotti-032929270" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><a href="https://github.com/OrnellaGianotti" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                        <li><a href="mailto:gianottiornella@gmail.com">Email</a></li>
+                        <li><a href="https://wa.me/3564609945" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+                    </ul>
+                    <div class="formulario">
+                        <h3>Contáctate conmigo desde aquí:</h3>
                         <form method="post" action="https://server.com/pagina">
                             <label for="name">Nombre:</label>
                             <input type="text" id="name" name="name" required />
                             <label for="email">Correo Electrónico:</label>
                             <input type="email" id="email" name="email" required />
                             <label for="message">Mensaje:</label>
-                            <input type="message" id="message" name="message" required />
-                            
+                            <input type="text" id="message" name="message" required />
                             <button type="submit">Enviar</button>
                         </form>
                     </div>
-                    
                 </div>
             </div>
+                    
     
            
 
         </div>
-       
+
+        <script>
+            function openTab(tabName) {
+                var i, tabcontent;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                document.getElementById(tabName).style.display = "block";
+            }
+    
+            // Open the first tab by default
+            document.addEventListener("DOMContentLoaded", function() {
+                openTab('presentacion');
+            });
+        </script>
 
 
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
