@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
+nav {
+    text-align: center;
+    background-color: #fe8282;
+}
+nav button {
+    margin: 0 10px; 
+    padding: 10px 20px;
+    background-color: #fe8282;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
 
 
 h1{
@@ -51,6 +65,8 @@ body{
 .presentacion{
     line-height: 2;
     text-align: justify;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px; 
 }
 
 .container {
